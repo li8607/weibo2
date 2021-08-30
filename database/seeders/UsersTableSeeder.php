@@ -17,10 +17,11 @@ class UsersTableSeeder extends Seeder
         //
         User::factory()->count(50)->create();
 
-        $user = User::find(1);
-        $user->name = 'Summer';
-        $user->email = 'summer@exmple.com';
-        $user->password = bcrypt('summer');
-        $user->save();
+        // $user = User::find(1);
+        // $user->name = 'Summer';
+        // $user->email = 'summer@exmple.com';
+        // // $user->is_admin = true;
+        // $user->password = bcrypt('summer');
+        // $user->save();
     }
 }
